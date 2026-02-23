@@ -1,16 +1,112 @@
-# React + Vite
+# React JS Student Management System
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 📌 Project Overview
 
-Currently, two official plugins are available:
+The **React JS Student Management System** is a web-based application
+built using React (Vite).\
+It allows users to manage student records, attendance, and
+authentication in a structured and user-friendly interface.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+------------------------------------------------------------------------
 
-## React Compiler
+## 🚀 Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+-   🔐 Login Authentication
+-   ➕ Add Student
+-   📋 View Student List
+-   ✏️ Edit Student Details
+-   ❌ Delete Student
+-   📅 Mark Attendance
+-   📊 View Attendance Records
+-   🧭 Sidebar Navigation
+-   🔍 Search Functionality (if implemented)
 
-## Expanding the ESLint configuration
+------------------------------------------------------------------------
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Tech Stack
+
+-   React JS (Vite)
+-   React Router DOM
+-   JavaScript (ES6)
+-   Bootstrap / CSS
+-   LocalStorage (for basic data persistence)
+
+------------------------------------------------------------------------
+
+## 📂 Project Structure
+
+    REACT_JS_STUDENT_MANAGEMENT/
+    │
+    ├── public/
+    ├── src/
+    │   ├── assets/
+    │   ├── components/
+    │   │   ├── Header.jsx
+    │   │   └── Sidebar.jsx
+    │   ├── pages/
+    │   │   ├── Attendance.jsx
+    │   │   ├── Home.jsx
+    │   │   ├── Login.jsx
+    │   │   ├── StudentForm.jsx
+    │   │   ├── ViewStudent.jsx
+    │   │   ├── ViewAttendance.jsx
+    │   │   └── Test.jsx
+    │   ├── App.jsx
+    │   └── main.jsx
+    │
+    ├── index.html
+    ├── package.json
+    └── vite.config.js
+
+------------------------------------------------------------------------
+
+## ⚙️ Installation & Setup
+
+### 1️⃣ Clone the repository
+
+``` bash
+git clone <your-repository-link>
+```
+
+### 2️⃣ Navigate to project folder
+
+``` bash
+cd REACT_JS_STUDENT_MANAGEMENT
+```
+
+### 3️⃣ Install dependencies
+
+``` bash
+npm install
+```
+
+### 4️⃣ Run the development server
+
+``` bash
+npm run dev
+```
+
+------------------------------------------------------------------------
+
+## 🔑 Login Information
+
+Currently authentication is handled using **LocalStorage**.\
+You can modify login credentials inside the `Login.jsx` file.
+
+------------------------------------------------------------------------
+
+## 📌 Future Improvements
+
+-   Backend Integration (Node.js / Express / MongoDB)
+-   API Integration
+-   Role-based Authentication
+-   Improved UI/UX
+-   Deployment on Netlify / Vercel
+
+------------------------------------------------------------------------
+
+## 👩‍💻 Developed By
+
+DRASHTI BILIMORIA
+
+------------------------------------------------------------------------
