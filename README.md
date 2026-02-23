@@ -9,6 +9,12 @@ authentication in a structured and user-friendly interface.
 
 ------------------------------------------------------------------------
 
+## 🌐 Live Demo
+
+🔗 https://react-js-student-management-portal.vercel.app/
+
+------------------------------------------------------------------------
+
 ## 🚀 Features
 
 -   🔐 Login Authentication
@@ -101,7 +107,7 @@ You can modify login credentials inside the `Login.jsx` file.
 -   API Integration
 -   Role-based Authentication
 -   Improved UI/UX
--   Deployment on Netlify / Vercel
+-   Deployment Improvements
 
 ------------------------------------------------------------------------
 
@@ -110,3 +116,4 @@ You can modify login credentials inside the `Login.jsx` file.
 DRASHTI BILIMORIA
 
 ------------------------------------------------------------------------
+
